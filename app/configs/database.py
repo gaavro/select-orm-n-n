@@ -11,3 +11,4 @@ def init_app(app: Flask):
     # importar models
     from app.models.developer_model import Developer
     from app.models.tech_model import Tech
+    from app.models.developer_tech_model import DeveloperTech
